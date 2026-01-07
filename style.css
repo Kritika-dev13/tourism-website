@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Barlow+Condensed&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-family: Satisfy;
+  font-size: 36px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Barlow Condensed;
+}
+
+.menu li a:hover {
+  color: #f4b400;
+}
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+  url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605294054/young-woman-enjoying-beautiful-scenery-of-lago-di-braies-italy-picjumbo-com_aa0fvw.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-family: Satisfy;
+  font-size: 80px;
+  color: #fde02f;
+  margin-bottom: 20px;
+}
+
+.form {
+  background: rgba(255,255,255,.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form input, .book {
+  padding: 12px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.book {
+  background: #fde02f;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.service-item {
+  text-align: center;
+  padding: 30px;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+}
+
+.footer {
+  background: #001f3f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.links {
+  margin: 0 40px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  padding: 8px 0;
+  cursor: pointer;
+}
